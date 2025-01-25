@@ -11,14 +11,14 @@ int main()
 {
 	int w;
 	int h;
-	printf("Enter the width of your area: ");
+	printf("Enter the width of your rectangle: ");
 	scanf("%d", &w);
 
-	printf("Enter the height of your area: ");
+	printf("Enter the height of your rectangle: ");
 	scanf("%d", &h);
 
 	int ans = calcArea(w, h);
-	printf("Your area is %d!\n", ans);
+	printf("Your area is %d.\n", ans);
 
 	return 0;
 }
