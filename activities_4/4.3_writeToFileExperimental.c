@@ -23,6 +23,8 @@ int main()
 
 	fwrite(example_numbers, sizeof(int), length, fptr);
 
+	fclose(fptr);
+
 
     return 0;
 }

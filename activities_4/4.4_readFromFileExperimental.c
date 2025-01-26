@@ -25,6 +25,8 @@ int main()
 		printf("%d, ");
 	}
 	printf("]\n");
+
+	fclose(fptr);
 	
     return 0;
 }
